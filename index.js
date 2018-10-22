@@ -1,5 +1,6 @@
-require(['jquery', 'dialog'], function($, dialog) {
+require(['jquery', 'dialog'], function($, Dialog) {
     $('#btn').on('click', function() {
+        var dialog = new Dialog();
         dialog.open({
             title: 'xxxxx',
             width: 300,
